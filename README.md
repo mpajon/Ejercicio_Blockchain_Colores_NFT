@@ -38,7 +38,7 @@ Esto nos creará un fichero _Color.sol_ que contendrá la lógica de nuestro con
 
 ```js
 // SPDX-License-Identifier: MIT
-pragma solidity 0.8.4;
+pragma solidity 0.8.17;
 
 import "@openzeppelin/contracts/token/ERC721/extensions/ERC721Enumerable.sol";
 import "@openzeppelin/contracts/token/ERC721/ERC721.sol";
@@ -205,7 +205,7 @@ Ya tenemos una cuenta de nuestra red local de Etherum con saldo lista para usar:
 
 ![](./screenshots/metamask19.png)
 
-Con [Metamask](https://metamask.io/) instalado y configurado, vamos a usar una aplicación desarrollada en JS y que mediante NodeJS nos sirva de interfaz para usar el contrato inteligente que tenemos en nuestra red Etherum de pruebas situada en local.
+Con [Metamask](https://metamask.io/) instalado y configurado, vamos a usar una aplicación desarrollada en Angular  nos sirva de interfaz para usar el contrato inteligente que tenemos en nuestra red Etherum de pruebas situada en local.
 
 Descargaremos los paquetes necesarios para que funcione la aplicación:
 
@@ -213,8 +213,8 @@ Descargaremos los paquetes necesarios para que funcione la aplicación:
 
 Una vez que este todo descargado, lanzaremos la aplicación:
 
-    $ npm run dev
+    $ npm run start
 
 ![](./screenshots/npm_run_dev)
 
-Y accediendo a la URL [http://localhost:3001](http://localhost:3001) podremos ver la aplicación y comprobar si nuestro contrato inteligente funciona correctamente.
+Y accediendo a la URL [http://localhost:400](http://localhost:4000) podremos ver la aplicación y comprobar si nuestro contrato inteligente funciona correctamente.
